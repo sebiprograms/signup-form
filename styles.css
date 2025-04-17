@@ -8,14 +8,14 @@ body {
   font-family: sans-serif;
 }
 
-p {
-  font-size: large;
+h1 {
+  font-weight: 100;
+  font-size: larger;
 }
 
 img {
-  width: 45%;
+  width: min(45%, 400px);
   height: 100%;
-  
 }
 .side-img {
   width: 50%;
@@ -25,7 +25,20 @@ img {
 .right-panel {
   display: flex;
   flex-direction: column;
-  background-color: rgb(241, 241, 241);
-  box-shadow: 10px 10px;
+  background-color: rgb(249 250 251);
+  justify-content: center;
+  
 }
+
+.sign-up {
+  background-color: rgb(255 255 255);
+  box-shadow: 0px 5px 5px #dcdddd;
+  padding-left: 40px;
+}
+
+form {
+
+}
+
+
 
