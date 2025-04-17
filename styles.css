@@ -28,8 +28,18 @@ p.heading {
   font-size: large;
 }
 
+.reminder.heading {
+  font-size: small;
+  padding-left: 50px;
+}
+
+a {
+  color: rgb(60, 85, 65);
+}
+
 img {
   height: 100%;
+
 }
 
 
@@ -53,6 +63,7 @@ form {
   display: flex;
   padding-bottom: 20px;
   font-size: small;
+  
 }
 
 input {
@@ -60,7 +71,11 @@ input {
   flex-direction: column;
   border: 1px solid #dcdddd;
   border-radius: 3.5px;
-  height: 25px;
+  height: 23px;
+}
+
+.textform {
+  margin-right: max(3%, 15px);
 }
 
 button {
@@ -70,6 +85,8 @@ button {
   border-radius: 4px;
   border: 1px solid #dcdddd;
   box-shadow: 2px 2px 5px #dcdddd;
+  background-color: rgb(60, 85, 65);
+  color: #ffffff;
   width: 130px;
   height: 35px;
   margin-top: 20px;
