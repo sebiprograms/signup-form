@@ -2,7 +2,10 @@
 
 ## Achieved
 
--[x] Gain an advanced understanding of html forms -[x] Further solidify css fundamentals -[x] make use of css pseudo classes
+-   [x] Gain an advanced understanding of html forms
+-   [x] Further solidify css fundamentals
+-   [x] make use of css pseudo classes
+-   [x] Get creative
 
 ## objective
 
