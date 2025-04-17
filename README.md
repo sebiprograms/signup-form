@@ -10,3 +10,5 @@
 ## objective
 
 The goal of implementing a signup-form in vanilla html & css is to gain a deep understanding of html forms, form validation, and css psuedo classes
+
+Live Preview: [Here](https://sebiprograms.github.io/signup-form/)
