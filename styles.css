@@ -1,3 +1,8 @@
+@font-face {
+  font-family: coop;
+  src: url(./webfontkit/cooperhewitt-light-webfont.woff);
+}
+
 html {
   height: 100%;
 }
@@ -9,18 +14,16 @@ body {
 }
 
 h1 {
+  font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 100;
   font-size: larger;
+  padding-left: 40px;
 }
 
 img {
-  width: min(45%, 400px);
   height: 100%;
 }
-.side-img {
-  width: 50%;
 
-}
 
 .right-panel {
   display: flex;
@@ -31,14 +34,36 @@ img {
 }
 
 .sign-up {
+
   background-color: rgb(255 255 255);
   box-shadow: 0px 5px 5px #dcdddd;
   padding-left: 40px;
 }
 
 form {
-
+  font-family: coop;
+  display: flex;
 }
 
+input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dcdddd;
+  border-radius: 5px;
+  height: 20px;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid #dcdddd;
+  width: 130px;
+  height: 35px;
+  position: relative;
+  top: 160px;
+  right: 350px;
+}
+button:hover {
+  cursor: pointer;
+}
 
 
